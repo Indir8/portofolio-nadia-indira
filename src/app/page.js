@@ -30,7 +30,7 @@ export default function Home() {
         <div className="container">
             <div className="flex items-center justify-between relative">
                 <div className="px-4">
-                    <a href="#home" className="font-black text-lg text-primary block py-6">nadiaindira</a>
+                    <a href="#home" className="font-bold text-lg text-black block py-6">nadiaindira</a>
                 </div>
                 <div className="flex items-center px-4">
                 <button
@@ -57,35 +57,35 @@ export default function Home() {
                                   e.preventDefault();
                                   handleScroll("home");
                                 }}
-                                className="text-base text-dark py-2 mx-8 flex group-hover:text-slate-500 dark:text-white">Home</a>
+                                className="text-base text-black py-2 mx-8 flex group-hover:text-slate-500">Home</a>
                             </li>
                             <li className="group">
                                 <a href="#about" onClick={(e) => {
                                   e.preventDefault();
                                   handleScroll("about");
                                 }} 
-                                className="text-base text-dark py-2 mx-8 flex group-hover:text-slate-500 dark:text-white">About</a>
+                                className="text-base text-black py-2 mx-8 flex group-hover:text-slate-500">About</a>
                             </li>
                             <li className="group">
                                 <a href="#project" onClick={(e) => {
                                   e.preventDefault();
                                   handleScroll("project");
                                 }} 
-                                className="text-base text-dark py-2 mx-8 flex group-hover:text-slate-500 dark:text-white">Projects</a>
+                                className="text-base text-black py-2 mx-8 flex group-hover:text-slate-500">Projects</a>
                             </li>
                             <li className="group">
                                 <a href="#certificate" onClick={(e) => {
                                   e.preventDefault();
                                   handleScroll("certificate");
                                 }} 
-                                className="text-base text-dark py-2 mx-8 flex group-hover:text-slate-500 dark:text-white">Certificates</a>
+                                className="text-base text-black py-2 mx-8 flex group-hover:text-slate-500">Certificates</a>
                             </li>
                             <li className="group">
                                 <a href="#contact" onClick={(e) => {
                                   e.preventDefault();
                                   handleScroll("contact");
                                 }}
-                                className="text-base text-dark py-2 mx-8 flex group-hover:text-slate-500 dark:text-white">Contact Me</a>
+                                className="text-base text-black py-2 mx-8 flex group-hover:text-slate-500">Contact Me</a>
                             </li>
                         </ul>
                     </nav>
@@ -115,10 +115,10 @@ export default function Home() {
         <div className="flex flex-wrap bg-white border border-blue-800 shadow-md shadow-blue-800 w-full lg:w-[460px] h-[98px] lg:h-[59px] rounded-full px-4 lg:px-0 py-2 lg:py-0">
           <Image src="/img/favicon.png" alt="logo" width={58} height={58} className="lg:-translate-x-2" />
           <div className="mt-1">
-            <h1 className="font-bold text-base ml-2">SMKN 1 MAJALENGKA</h1>
-            <p className="font-light ml-2">Rekayasa Perangkat Lunak</p>
+            <h1 className="font-bold text-black text-base ml-2">SMKN 1 MAJALENGKA</h1>
+            <p className="font-light text-black ml-2">Rekayasa Perangkat Lunak</p>
           </div>
-          <p className="font-light lg:mt-1 ml-16 lg:ml-14">2022 - Now</p>
+          <p className="font-light text-black lg:mt-1 ml-16 lg:ml-14">2022 - Now</p>
         </div>
       </div>
 
@@ -194,7 +194,7 @@ export default function Home() {
       <div className="bg-white w-[280px] h-[260px] border border-blue-800 shadow-lg shadow-blue-800 rounded-xl">
         <Image src="/img/kurin.png" alt="kurin" width={890} height={280} className="rounded-xl shadow-md shadow-blue-800" />
         <h2 className="text-black font-bold text-sm ml-3 mt-2 ">KUNJUNGAN INDUSTRI</h2>
-        <p className="text-sm mt-2 ml-3">Gamelab Indonesia</p>
+        <p className="text-sm text-black mt-2 ml-3">Gamelab Indonesia</p>
         <div className="relative">
           <a href="https://drive.google.com/file/d/118OANXRmElqvLBhc5ewz_j-SIICELUvb/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <Image src="/send.svg" alt="send" width={35} height={35} className="absolute bottom-1 right-3 hover:opacity-80" />
@@ -204,7 +204,7 @@ export default function Home() {
       <div className="bg-white w-[280px] h-[260px] border border-blue-800 shadow-lg shadow-blue-800 rounded-xl">
         <Image src="/img/gamelab1.png" alt="gamelab1" width={890} height={280} className="rounded-xl shadow-md shadow-blue-800" />
         <h2 className="text-black font-bold text-sm ml-3 mt-2 ">HTML, CSS, DAN JAVASCRIPT</h2>
-        <p className="text-sm mt-2 ml-3">Gamelab Indonesia</p>
+        <p className="text-sm text-black mt-2 ml-3">Gamelab Indonesia</p>
         <div className="relative">
           <a href="https://drive.google.com/file/d/1CU7eOboYRCP-OUDUGRYLXVFQs_34cqGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <Image src="/send.svg" alt="send" width={35} height={35} className="absolute bottom-1 right-3 hover:opacity-80" />
@@ -214,7 +214,7 @@ export default function Home() {
       <div className="bg-white w-[280px] h-[260px] border border-blue-800 shadow-lg shadow-blue-800 rounded-xl">
         <Image src="/img/gamelab2.png" alt="gamelab2" width={890} height={280} className="rounded-xl shadow-md shadow-blue-800" />
         <h2 className="text-black font-bold text-sm ml-3 mt-2 ">NODEJS DAN MYSQL</h2>
-        <p className="text-sm mt-2 ml-3">Gamelab Indonesia</p>
+        <p className="text-sm text-black mt-2 ml-3">Gamelab Indonesia</p>
         <div className="relative">
           <a href="https://drive.google.com/file/d/13aFiHPu6VGmfgr8gqAf_gcvfUIhJYLnp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <Image src="/send.svg" alt="send" width={35} height={35} className="absolute bottom-1 right-3 hover:opacity-80" />
@@ -224,7 +224,7 @@ export default function Home() {
       <div className="bg-white w-[280px] h-[260px] border border-blue-800 shadow-lg shadow-blue-800 rounded-xl">
         <Image src="/img/gamelab3.png" alt="gamelab3" width={890} height={280} className="rounded-xl shadow-md shadow-blue-800" />
         <h2 className="text-black font-bold text-sm ml-3 mt-2 ">NODEJS DAN MONGODB</h2>
-        <p className="text-sm mt-2 ml-3">Gamelab Indonesia</p>
+        <p className="text-sm text-black mt-2 ml-3">Gamelab Indonesia</p>
         <div className="relative">
           <a href="https://drive.google.com/file/d/1GdOzlsvvlsGzcMHDaJVJFr7Tn-hn1z7r/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <Image src="/send.svg" alt="send" width={35} height={35} className="absolute bottom-1 right-3 hover:opacity-80" />
@@ -234,7 +234,7 @@ export default function Home() {
       <div className="bg-white w-[280px] h-[260px] border border-blue-800 shadow-lg shadow-blue-800 rounded-xl">
         <Image src="/img/simbus-ptn.png" alt="simbus-ptn" width={890} height={280} className="rounded-xl shadow-md shadow-blue-800" />
         <h2 className="text-black font-bold text-sm ml-3 mt-2 ">E-SERTIFIKAT SIMBUS PTN</h2>
-        <p className="text-sm mt-2 ml-3">Webinar Yapindo</p>
+        <p className="text-sm text-black mt-2 ml-3">Webinar Yapindo</p>
         <div className="relative">
           <a href="https://drive.google.com/file/d/1lTGrB4oeZ3zybN4DopyNnEkH9aZHMn9A/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <Image src="/send.svg" alt="send" width={35} height={35} className="absolute bottom-1 right-3 hover:opacity-80" />
@@ -244,7 +244,7 @@ export default function Home() {
       <div className="bg-white w-[280px] h-[260px] border border-blue-800 shadow-lg shadow-blue-800 rounded-xl">
         <Image src="/img/K3.png" alt="k3" width={890} height={280} className="rounded-xl shadow-md shadow-blue-800" />
         <h2 className="text-black font-bold text-sm ml-3 mt-2 ">E-LEARNING K3</h2>
-        <p className="text-sm mt-2 ml-3">Pembelajaran Platform Digital</p>
+        <p className="text-sm text-black mt-2 ml-3">Pembelajaran Platform Digital</p>
         <div className="relative">
           <a href="https://drive.google.com/file/d/15OW2rtyy-FSeHlnWKcWDXamC9j19fevl/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <Image src="/send.svg" alt="send" width={35} height={35} className="absolute bottom-1 right-3 hover:opacity-80" />
@@ -332,7 +332,7 @@ export default function Home() {
       
        {/* Linkedin */}
        
-       <a href="https://linkedin.com/in/nadia. ipr" target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-blue-800 text-salte-800 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
+       <a href="https://linkedin.com/in/nadia. ipr" target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-blue-800 text-slate-800 hover:border-blue-500 hover:bg-blue-500 hover:text-white">
        <svg role="img" width="20" className="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
        </a>
 
